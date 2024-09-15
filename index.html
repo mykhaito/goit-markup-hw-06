@@ -27,6 +27,12 @@
           <a class="logo" href="./index.html">
             Web<span class="logo-span">Studio</span>
           </a>
+          <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+          <label for="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+            <svg width="24" height="24" class="icon">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </label>
           <ul class="menu-nav">
             <li>
               <a class="nav-menu-items active" href="./index.html">Studio</a>
@@ -109,7 +115,7 @@
           <h2 class="section-h-two-header">Our Team</h2>
           <ul class="team-tables">
             <li class="team-card">
-              <img src="./images/img_1.jpg" width="264" height="260" alt="Portrait of Mark Guerrero" />
+              <img srcset="./images/img_1.jpg 1x, ./images/img_1@2x.jpg 2x"  width="360" height="300" alt="Portrait of Mark Guerrero" />
               <div class="card-info">
                 <h3 class="card-header">Mark Guerrero</h3>
                 <p class="card-paragraph">Product Designer</p>
@@ -146,7 +152,7 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/img_2.jpg" width="264" height="260" alt="Portrait of Tom Ford" />
+              <img srcset="./images/img_2.jpg 1x, ./images/img_2@2x.jpg 2x" width="360" height="300" alt="Portrait of Tom Ford" />
               <div class="card-info">
                 <h3 class="card-header">Tom Ford</h3>
                 <p class="card-paragraph">Frontend Developer</p>
@@ -183,7 +189,7 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/img_3.jpg" width="264" height="260" alt="Portrait of Camila Garcia" />
+              <img srcset="./images/img_3.jpg 1x, ./images/img_3@2x.jpg 2x" width="360" height="300" alt="Portrait of Camila Garcia" />
               <div class="card-info">
                 <h3 class="card-header">Camila Garcia</h3>
                 <p class="card-paragraph">Marketing</p>
@@ -220,7 +226,7 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/img_4.jpg" width="264" height="260" alt="Portrait of Daniel Wilson" />
+              <img srcset="./images/img_4.jpg 1x, ./images/img_4@2x.jpg 2x" width="360" height="300" alt="Portrait of Daniel Wilson" />
               <div class="card-info">
                 <h3 class="card-header">Daniel Wilson</h3>
                 <p class="card-paragraph">UI Designer</p>
@@ -266,7 +272,7 @@
           <ul class="portfolio-row">
             <li class="project-card">
               <div class="card-img">
-                <img src="./images/img_5.jpg" width="360" height="300" alt="Banking App image" />
+                <img srcset="./images/img_5.jpg 1x, ./images/img_5@2x.jpg 2x" width="360" height="300" alt="Banking App image" />
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="card-container">
@@ -276,7 +282,7 @@
             </li>
             <li class="project-card">
               <div class="card-img">
-                <img src="./images/img_6.jpg" width="360" height="300" alt="Cashless Payment image" />
+                <img srcset="./images/img_6.jpg 1x, ./images/img_6@2x.jpg 2x" width="360" height="300" alt="Cashless Payment image" />
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="card-container">
@@ -286,7 +292,7 @@
             </li>
             <li class="project-card">
               <div class="card-img">
-                <img src="./images/img_7.jpg" width="360" height="300" alt="Meditation App image" />
+                <img srcset="./images/img_7.jpg 1x, ./images/img_7@2x.jpg 2x" width="360" height="300" alt="Meditation App image" />
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="card-container">
@@ -296,7 +302,7 @@
             </li>
             <li class="project-card">
               <div class="card-img">
-                <img src="./images/img_8.jpg" width="360" height="300" alt="Taxi Service image" />
+                <img srcset="./images/img_8.jpg 1x, ./images/img_8@2x.jpg 2x" width="360" height="300" alt="Taxi Service image" />
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="card-container">
@@ -306,7 +312,7 @@
             </li>
             <li class="project-card">
               <div class="card-img">
-                <img src="./images/img_9.jpg" width="360" height="300" alt="Screen Illustrations image" />
+                <img srcset="./images/img_9.jpg 1x, ./images/img_9@2x.jpg 2x" width="360" height="300" alt="Screen Illustrations image" />
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="card-container">
@@ -316,7 +322,7 @@
             </li>
             <li class="project-card">
               <div class="card-img">
-                <img src="./images/img_10.jpg" width="360" height="300" alt="Online Courses image" />
+                <img srcset="./images/img_10.jpg 1x, ./images/img_10@2x.jpg 2x" width="360" height="300" alt="Online Courses image" />
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="card-container">
@@ -387,6 +393,66 @@
       </div>
     </footer>
      <!--HW5 part new-->
+    <div class="menu-overlay">
+      <div class="nav-menu-window">
+        <button class="nav-menu-close-button" type="button">
+          <svg width="8" height="8" class="icon">
+            <use href="./images/icons.svg#icon-closex"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu-nav">
+          <li>
+            <a class="mobile-nav-menu-items active" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="mobile-nav-menu-items" href="">Portfolio</a>
+          </li>
+          <li>
+            <a class="mobile-nav-menu-items" href="">Contacts</a>
+          </li>
+        </ul>
+        <address class="mobile-menu-address">
+          <ul class="mobile-address-list">
+            <li>
+              <a class="mobile-address-contacts" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li>
+              <a class="mobile-address-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-card-paragraph-icon-footer">
+          <li class="card-paragraph-icon-list-footer">
+            <a class="card-paragraph-icon-list-link-footer" href="">
+              <svg width="24" height="24" class="icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="card-paragraph-icon-list-footer">
+            <a class="card-paragraph-icon-list-link-footer" href="">
+              <svg width="24" height="24" class="icon">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="card-paragraph-icon-list-footer">
+            <a class="card-paragraph-icon-list-link-footer" href="">
+              <svg width="24" height="24" class="icon">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="card-paragraph-icon-list-footer">
+            <a class="card-paragraph-icon-list-link-footer" href="">
+              <svg width="24" height="24" class="icon">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <div class="modal-overlay">
       <div class="modal">
         <button class="close-button" type="button">
